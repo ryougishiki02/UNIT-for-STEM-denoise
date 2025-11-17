@@ -36,7 +36,7 @@ for filename in os.listdir(source1):
 command = [
     'python', 'test_batch.py',
     '--trainer', 'UNIT',
-    '--config', 'configs/unit_STM_folder.yaml',
+    '--config', 'configs/unit_STEM_folder.yaml',
     '--input_folder', 'inputs/batch_folder',
     '--output_folder', 'results/batch_results',
     '--checkpoint', 'models/unit_STM.pt',
