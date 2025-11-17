@@ -3,7 +3,7 @@ Copyright (C) 2018 NVIDIA Corporation.  All rights reserved.
 Licensed under the CC BY-NC-SA 4.0 license (https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).
 """
 
-#python test.py --trainer UNIT --config configs/unit_STM_folder.yaml --input inputs/bad_example.jpg --output_folder results/bad2good --checkpoint models/unit_STM.pt --a2b 0
+#python test.py --trainer UNIT --config configs/unit_STEM_folder.yaml --input inputs/bad_example.jpg --output_folder results/bad2good --checkpoint models/unit_STEM.pt --a2b 0
 from __future__ import print_function
 from utils import get_config, pytorch03_to_pytorch04
 from trainer import MUNIT_Trainer, UNIT_Trainer
