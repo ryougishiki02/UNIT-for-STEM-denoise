@@ -5,7 +5,7 @@ Licensed under the CC BY-NC-SA 4.0 license (https://creativecommons.org/licenses
 #    cd D:\huangziyang\wuyucong\UNIT
 #    conda activate pytorch
 #    set KMP_DUPLICATE_LIB_OK=TRUE
-#    python train.py --trainer UNIT --config configs/unit_STM_folder.yaml
+#    python train.py --trainer UNIT --config configs/unit_STEM_folder.yaml
 #    set KMP_DUPLICATE_LIB_OK=FALSE
 
 import argparse
