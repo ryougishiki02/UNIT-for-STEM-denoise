@@ -1,4 +1,4 @@
-#  python test_batch.py --trainer UNIT --config configs/unit_STM_folder.yaml --input_folder inputs/batch_folder --output_folder results/batch_results --checkpoint models/unit_STM.pt --a2b 0
+#  python test_batch.py --trainer UNIT --config configs/unit_STEM_folder.yaml --input_folder inputs/batch_folder --output_folder results/batch_results --checkpoint models/unit_STEM.pt --a2b 0
 from __future__ import print_function
 from utils import get_config, get_data_loader_folder, pytorch03_to_pytorch04
 from trainer import MUNIT_Trainer, UNIT_Trainer
