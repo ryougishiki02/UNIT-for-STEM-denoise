@@ -4,9 +4,9 @@ from PIL import Image
 import os
 
 # 输入和输出文件夹路径
-input_folder = 'datasets\STM/testB'  # 替换为你的图片文件夹路径
+input_folder = 'datasets\STEM/testB'  # 替换为你的图片文件夹路径
 #input_folder = 'inputs'
-output_folder = 'datasets\STM/testB'  # 设置转换后图片的保存路径
+output_folder = 'datasets\STEM/testB'  # 设置转换后图片的保存路径
 #output_folder = 'inputs'
 
 # 如果输出文件夹不存在，则创建
