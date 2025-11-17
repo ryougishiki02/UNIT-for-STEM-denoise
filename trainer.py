@@ -391,7 +391,7 @@ class UNIT_Trainer(nn.Module):
         plt.colorbar()
 
         # 保存图像到文件，使用 iteration 作为文件名的一部分
-        save_dir = "visualize_fourier/STM"
+        save_dir = "visualize_fourier/STEM"
         os.makedirs(save_dir, exist_ok=True)
         save_path = os.path.join(save_dir, f"{iteration + 1}.png")
         plt.savefig(save_path)  # 保存为PNG文件
