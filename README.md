@@ -66,11 +66,11 @@ UNIT-for-STEM-denoise/
 
 ## Pretrained Models
 
-Download our pretrained models and put them in the `checkpoints/` folder.
+The pretrained model is included in the `models/` directory of this repository.
 
 | Dataset / Material | Model Link |
 |--------------------|------------|
-| Universal 2D STEM  | [Insert Download Link Here] | 
+| Universal 2D STEM  | [unit_STM.pt](./models/unit_STM.pt) | 
 
 ---
 
@@ -106,11 +106,11 @@ The final, seamlessly stitched denoised images will be saved in `combine/outputs
 If you use any code or models from this repository, please cite our paper:
 
 ```bibtex
-@article{wu2024unsupervised,
+@article{2026unsupervised,
   title={Unsupervised Denoising of STEM Images for Enhanced Atomic Quantification},
-  author={Wu, Yucong and Huang, Ziyang and Chen, Honglue and He, Bohua and Qi, Meng and Zheng, He and Zhao, Peili and Jia, Shuangfeng and Wang, Jianbo},
+  author={Yucong Wu and Ziyang Huang and Honglue Chen and Bohua He and Meng Qi and He Zheng and Peili Zhao and Shuangfeng Jia and Jianbo Wang},
   journal={Ultramicroscopy},
-  year={2024},
+  year={2026},
   doi={[Insert Your DOI Here]}
 }
 ```
