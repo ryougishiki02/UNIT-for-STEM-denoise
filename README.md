@@ -94,7 +94,7 @@ The final, seamlessly stitched denoised images will be saved in `combine/outputs
 
 | Material | Noisy Input | Denoised Output |
 |----------|-------------|-----------------|
-| **STEM Sample** | <img src="./divide/input/JEOL1_20MX__0008.tif" width="384" title="Noisy Input"> | <img src="./combine/outputs/5-50-JEOL1_20MX__0008.jpg" width="384" title="Denoised Output"> |
+| **STEM Sample** | <img src="./divide/input/JEOL1_20MX__0008.jpg" width="384" title="Noisy Input"> | <img src="./combine/outputs/5-50-JEOL1_20MX__0008.jpg" width="384" title="Denoised Output"> |
 
 ---
 
