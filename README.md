@@ -54,7 +54,7 @@ Before testing, please organize your noisy STEM images. Place the images you wan
 ```text
 UNIT-for-STEM-denoise/
 ├── divide/
-│   ├── inputs/       <-- Put your noisy experimental images here (.jpg, .png, .tif)
+│   ├── input/       <-- Put your noisy experimental images here (.jpg, .png, .tif)
 │   └── divide.py     <-- Script for patch segmentation
 ├── combine/
 │   └── outputs/      <-- Denoised full-size results will appear here
@@ -94,10 +94,7 @@ The final, seamlessly stitched denoised images will be saved in `combine/outputs
 
 | Material | Noisy Input | Denoised Output |
 |----------|-------------|-----------------|
-| **MoS2** | <img src="./assets/mos2_input.jpg" width="384" title="Noisy MoS2"> | <img src="./assets/mos2_output.jpg" width="384" title="Denoised MoS2"> |
-| **SnSe** | <img src="./assets/snse_input.jpg" width="384" title="Noisy SnSe"> | <img src="./assets/snse_output.jpg" width="384" title="Denoised SnSe"> |
-
-*(Note: Create an `assets` folder and upload your example images to render the comparison table properly).*
+| **STEM Sample** | <img src="./divide/input/JEOL1_20MX__0008.tif" width="384" title="Noisy Input"> | <img src="./combine/outputs/5-50-JEOL1_20MX__0008.jpg" width="384" title="Denoised Output"> |
 
 ---
 
