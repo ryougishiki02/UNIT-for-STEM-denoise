@@ -54,12 +54,13 @@ Before testing, please organize your noisy STEM images. Place the images you wan
 ```text
 UNIT-for-STEM-denoise/
 ├── divide/
-│   ├── input/       <-- Put your noisy experimental images here (.jpg, .png, .tif)
-│   └── divide.py     <-- Script for patch segmentation
+│   └── input/        <-- Put your noisy experimental images here (.jpg, .png)
 ├── combine/
 │   └── outputs/      <-- Denoised full-size results will appear here
+├── divide.py         <-- Script for patch segmentation
 ├── all.py            <-- Main execution script
-└── checkpoints/      <-- Pre-trained model weights
+└── models/           <-- Pre-trained model 
+    └── unit_STM.pt
 ```
 
 ---
