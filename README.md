@@ -59,8 +59,8 @@ UNIT-for-STEM-denoise/
 │   └── outputs/      <-- Denoised full-size results will appear here
 ├── divide.py         <-- Script for patch segmentation
 ├── all.py            <-- Main execution script
-└── models/           <-- Pre-trained model 
-    └── unit_STM.pt
+└── models/           
+    └── unit_STM.pt   <-- Pre-trained model 
 ```
 
 ---
@@ -80,7 +80,7 @@ The pretrained model is included in the `models/` directory of this repository.
 For high-resolution STEM images, directly feeding them into the network can cause memory issues and boundary artifacts. We employ an overlapping patch segmentation and padding strategy.
 
 **Step 1: Configure Segmentation**
-Open `divide/divide.py` to set your patch segmentation parameters:
+Open `divide.py` to set your patch segmentation parameters:
 - `n`: Determines the grid size for cropping ($n^2$ total patches).
 - `pixel_increase`: Defines the expanded pixel size for each patch to ensure overlapping boundaries.
 
@@ -104,19 +104,19 @@ The final, seamlessly stitched denoised images will be saved in `combine/outputs
 If you use any code or models from this repository, please cite our paper:
 
 ```bibtex
-@article{2026unsupervised,
+@article{Wu2026unsupervised,
   title={Unsupervised Denoising of STEM Images for Enhanced Atomic Quantification},
   author={Yucong Wu and Ziyang Huang and Honglue Chen and Bohua He and Meng Qi and He Zheng and Peili Zhao and Shuangfeng Jia and Jianbo Wang},
   journal={Ultramicroscopy},
   year={2026},
-  doi={[Insert Your DOI Here]}
+  doi={10.1016/j.ultramic.2026.114374}
 }
 ```
 
 ---
 
 ## Contact
-
+u
 For questions or contributions, please contact:  
 **Yucong Wu** (wuyucong@whu.edu.cn)  
 **Ziyang Huang** (huangziyang02@gmail.com)
