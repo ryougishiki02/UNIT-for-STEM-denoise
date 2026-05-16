@@ -8,6 +8,8 @@ Official implementation of the paper **"Unsupervised Denoising of STEM Images fo
 
 This project provides an unsupervised deep learning framework based on the UNIT architecture to denoise high-resolution Scanning Transmission Electron Microscopy (STEM) images. By integrating both real-space and reciprocal-space (Fourier) loss functions, our method successfully suppresses complex noises while strictly preserving long-range lattice periodicity and local defect features.
 
+Note：A GUI version will be released soon for better usability.（2026.05）
+
 ---
 
 ## Features
